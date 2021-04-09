@@ -14,11 +14,34 @@
     <body>
         
         <table>
-            <tr><th colspan="2"><h1>TEST GENERATE CHARTS</h1></th></tr>
+            <tr><th colspan="3"><h1>TEST GENERATE CHARTS</h1></th></tr>
+            
             <tr>
-                <td><a href="web/2d/barchart.jsp">Bar Chart</a></td>
-                <td><a href="web/2d/piechart.jsp">Pie Chart</a></td>
+                <td>EchartsTag</td>
+                <td><a href="web/2d/EchartsTagBarchart.jsp">Bar Chart</a></td>
+                <td><a href="web/2d/EchartsTagPiechart.jsp">Pie Chart</a></td>
             </tr>
+            <tr>
+                <td>FusionCharts</td>
+                <td><a href="web/2d/FusionBarchart.jsp">Bar Chart</a></td>
+                <td><a href="web/2d/FusionPiechart.jsp">Pie Chart</a></td>
+            </tr>
+            <tr>
+                <td>JFreeChart</td>                
+                <td><a href="web/2d/JFreechartBarChart.jsp">JFrechart Bar</a></td>                
+                <td><a href="web/2d/JFreechartPieChart.jsp">JFrechart Pie</a></td>
+            </tr>
+            <tr>
+                <td>ChartsJS</td>
+                <td><a href="web/2d/ChartsjsBarchart.jsp">Chartsj Bar</a></td>
+                <td><a href="web/2d/ChartjsPieChart.jsp">Chartsj Pie</a></td>
+            </tr>
+            <tr>
+                <td>HighCharts</td>
+                <td><a href="web/2d/HighchartsBarChart.jsp">Highcharts Bar</a></td>
+                <td><a href="web/2d/HighchartsPieChart.jsp">Highcharts Pie</a></td>
+            </tr>
+
         </table>
     </body>
 </html>
